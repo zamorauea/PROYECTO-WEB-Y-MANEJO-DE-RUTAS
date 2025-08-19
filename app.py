@@ -8,7 +8,7 @@ def index():
 
 @app.route('/acerca')
 def acerca():
-    return 'En Servi Cooll ZA-SA nos dedicamos a la venta, instalación y reparación de aires acondicionados.'
+    return 'En Servi Cool ZA-SA nos dedicamos a la venta, instalación y reparación de aires acondicionados.'
 
 @app.route('/contacto')
 def contacto():
