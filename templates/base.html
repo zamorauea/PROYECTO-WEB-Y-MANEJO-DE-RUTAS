@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>{% block title %}{% endblock %} - Servi Cool ZA-SA</title>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a href="{{ url_for('index') }}">Inicio</a>
+      <a href="{{ url_for('acerca') }}">Acerca de</a>
+      <a href="{{ url_for('servicios') }}">Servicios</a>
+      <a href="{{ url_for('contacto') }}">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    {% block content %}{% endblock %}
+  </main>
+</body>
+</html>
+
+
